@@ -1,28 +1,35 @@
-ReactStarter
-====
+# React To-Do List
 
-Use this as a starting point for working on chapters of the [Learn and Understand React JS](https://www.udemy.com/learn-and-understand-reactjs/) course on Udemy.com.
+### Tech
 
----
+Dillinger uses a number of open source projects to work properly:
 
-###Getting Started###
+* [ReactJS] - A JavaScript library for building user interfaces.
+* [Firebase] - Realtime JSON database for storing and syncing your app's data.
 
-There are two methods for getting started with this repo.
+### Basic Functionalities
 
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
+1. Create a to-do item
+2. Edit a to-do item
+3. Cross out a completed to-do item
+4. Clear the completed tasks
 
+### Installation
+
+After cloning the repository, do a npm install and run gulp.
+
+```sh
+$ npm install
 ```
-	> git clone git@github.com:StephenGrider/ReactStarter.git
-	> cd ReactStarter
-	> npm install
-	> gulp
+
+```sh
+$ gulp
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-```
-	> npm install
-	> gulp
-```
+
+   [ReactJS]: <https://facebook.github.io/react/>
+   [Firebase]: <www.firebase.com>
+
+
